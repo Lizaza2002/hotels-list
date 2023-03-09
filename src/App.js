@@ -65,7 +65,7 @@ function App() {
           </div>
 
           <div className='container'>
-            <p>{showMore ? description : description.substring(0, 185) + "....."}
+            <p>{showMore ? description : description.substring(0, 170) + "....."}
             <button onClick={() => showTextClick(hotel)}>{showMore ? "Скрыть" : "Показать"}</button></p>
             
           </div>
